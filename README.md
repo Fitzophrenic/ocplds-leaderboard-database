@@ -1,6 +1,13 @@
 # ocplds-leaderboard-database
 A leaderboard and data submission database system for Omega Creations Parkour, tracking player runs, scores, and rankings.
 
+## Prerequisites
+
+- **MySQL** must be installed and running on your machine.
+  - [Download MySQL](https://dev.mysql.com/downloads/mysql/) and follow the installer for your OS.
+  - After installing, make sure the `mysql` command is available in your terminal.
+  - On Mac, you can also install via Homebrew: `brew install mysql`
+
 ## Database Setup (MySQL)
 
 Run the files in this order from a fresh MySQL session:
