@@ -11,6 +11,11 @@ mysql -u root ocplds_database < schema.sql
 mysql -u root ocplds_database < sample_data.sql
 mysql -u root ocplds_database < select_all.sql
 ```
+Note if you want the output to be in table format use this command (assuming you ran first 3 commands above)
+
+```bash
+mysql -u root -t ocplds_database < select_all.sql
+```
 
 ## Files
 - `schema.sql` — table definitions, primary/foreign keys, and constraints
